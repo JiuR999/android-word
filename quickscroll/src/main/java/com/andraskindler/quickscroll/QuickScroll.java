@@ -87,6 +87,7 @@ public class QuickScroll extends View {
         fadeInAnimation.setFillAfter(true);
         fadeOutAnimation = new AlphaAnimation(1.0f, .0f);
         fadeOutAnimation.setFillAfter(true);
+
         fadeOutAnimation.setAnimationListener(new AnimationListener() {
 
             public void onAnimationStart(Animation animation) {

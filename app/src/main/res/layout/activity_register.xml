@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activity.login.RegisterActivity">
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="192dp"
+        android:layout_margin="@dimen/margin_lr"
+        android:scaleType="fitCenter"
+        android:background="@drawable/register_back" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:orientation="vertical"
+        android:background="@drawable/back_radius_12"
+        android:backgroundTint="#ffffff"
+        android:padding="12dp"
+        android:layout_marginStart="@dimen/margin_lr"
+        android:layout_marginEnd="@dimen/margin_lr"
+        android:gravity="center">
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/avatar"
+            android:layout_width="128dp"
+            android:layout_height="128dp"
+            app:strokeWidth="@dimen/margin_item"
+            />
+        <com.google.android.material.textfield.TextInputLayout
+            style="@style/editAccountStyle"
+            android:hint="@string/input_account"
+            app:endIconMode="clear_text"
+            app:endIconTint="?attr/colorSurface">
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/ed_reg_account"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="1dp" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            style="@style/editAccountStyle"
+            android:hint="@string/input_username"
+            app:endIconMode="clear_text"
+            app:endIconTint="?attr/colorSurface">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/ed_reg_name"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="1dp" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            style="@style/editAccountStyle"
+            android:hint="@string/input_password"
+            app:endIconMode="clear_text"
+            app:endIconTint="?attr/colorSurface">
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/ed_reg_password"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="1dp" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            style="@style/editAccountStyle"
+            android:hint="@string/check_pasword"
+            app:endIconMode="clear_text"
+            app:endIconTint="?attr/colorSurface">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/ed_reg_repassword"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="1dp" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+    </LinearLayout>
+    <CheckBox
+        android:id="@+id/cb_agree"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="@string/agree"
+        android:layout_gravity="center_horizontal"
+        style="@style/Widget.AppCompat.CompoundButton.RadioButton"/>
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_reg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginEnd="25dp"
+        android:text="@string/register"
+        android:textStyle="bold"
+        android:textSize="20dp" />
+</LinearLayout>

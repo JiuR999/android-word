@@ -1,4 +1,4 @@
-<resources>
+<resources xmlns:tools="http://schemas.android.com/tools">
     <string name="app_name">记词</string>
     <string name="iv_launch">launch background</string>
     <string name="iv_logo">main logo</string>
@@ -30,6 +30,14 @@
     <string name="last_page">到达最后一页</string>
     <string name="search_hint">请输入要查询的单词</string>
     <string name="sum_time">累计阅读：</string>
+    <string name="input_account">请输入账号</string>
+    <string name="input_password">请输入密码</string>
+    <string name="go_register">还没有账号?点此去注册</string>
+    <string name="login">登录</string>
+    <string name="input_username">输入用户名</string>
+    <string name="check_pasword">请再次确认密码</string>
+    <string name="agree">已同意并同意相关协议</string>
+    <string name="api_translate">https://api.oioweb.cn/api/txt/QQFanyi?sourceText=</string>
     <string-array name="speed_type">
         <item>极快</item>
         <item>稍快</item>
@@ -38,9 +46,28 @@
         <item>极慢</item>
     </string-array>
 
+    <string-array name="exam_type">
+        <item>高考英语</item>
+        <item>CET-4</item>
+        <item>CET-6</item>
+        <item>雅思</item>
+        <item>美国研究生入学考试</item>
+    </string-array>
+
+    <string-array name="exam_type_value">
+        <item>TABLE_NMET</item>
+        <item>TABLE_CET4</item>
+        <item>TABLE_CET6</item>
+        <item>TABLE_IETSL</item>
+        <item>TABLE_GRE</item>
+    </string-array>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="exit_hint">再按一次退出程序</string>
     <string name="toast_too_fast">当前播放速度过快, 无法自动发音, 请调慢速度</string>
     <string name="toast_connect">请检查是否连接网络</string>
+    <string name="register">注册</string>
+    <string name="exam_title" tools:ignore="ExtraTranslation">选择测验模块</string>
+    <string name="cancel">取消</string>
+    <string name="add">添加</string>
 </resources>

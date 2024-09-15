@@ -2,5 +2,5 @@
 <selector xmlns:android="http://schemas.android.com/apk/res/android">
     <item android:drawable="@mipmap/btn_play_pressed" android:state_pressed="true"/>
     <item android:drawable="@mipmap/btn_play_pressed" android:state_focused="true"/>
-    <item android:drawable="@mipmap/btn_play_normal"/>
+    <item android:drawable="@drawable/twotone_skip_previous_24"/>
 </selector>

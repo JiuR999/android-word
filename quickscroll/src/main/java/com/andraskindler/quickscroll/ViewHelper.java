@@ -3,6 +3,7 @@ package com.andraskindler.quickscroll;
 import android.annotation.SuppressLint;
 import android.view.View;
 
+
 import static com.andraskindler.quickscroll.animation.AnimatorProxy.NEEDS_PROXY;
 import static com.andraskindler.quickscroll.animation.AnimatorProxy.wrap;
 

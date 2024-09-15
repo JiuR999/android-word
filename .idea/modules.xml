@@ -2,9 +2,15 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/Word.iml" filepath="$PROJECT_DIR$/Word.iml" />
-      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
-      <module fileurl="file://$PROJECT_DIR$/quickscroll/quickscroll.iml" filepath="$PROJECT_DIR$/quickscroll/quickscroll.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Android-Word.iml" filepath="$PROJECT_DIR$/.idea/modules/Android-Word.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Android-Word.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Android-Word.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Android-Word.app.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Android-Word.app.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Android-Word.app.main.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Android-Word.app.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Android-Word.app.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Android-Word.app.unitTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/quickscroll/Android-Word.quickscroll.iml" filepath="$PROJECT_DIR$/.idea/modules/quickscroll/Android-Word.quickscroll.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/quickscroll/Android-Word.quickscroll.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/quickscroll/Android-Word.quickscroll.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/quickscroll/Android-Word.quickscroll.main.iml" filepath="$PROJECT_DIR$/.idea/modules/quickscroll/Android-Word.quickscroll.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/quickscroll/Android-Word.quickscroll.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/quickscroll/Android-Word.quickscroll.unitTest.iml" />
     </modules>
   </component>
 </project>
